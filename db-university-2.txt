@@ -90,7 +90,6 @@ ON `courses`.`degree_id` = `degrees`.`id`;
 INNER JOIN `departments`
 ON `degrees`.`department_id` = `departments`.`id`;
 WHERE `departments`.`name` = 'Dipartimento di Matematica';
-GROUP BY `teachers`.`id`;
 
 7. BONUS: Selezionare per ogni studente quanti tentativi d’esame ha sostenuto per
 superare ciascuno dei suoi esami
